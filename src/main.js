@@ -9,7 +9,6 @@ document.addEventListener('DOMContentLoaded',function(){
     const bands = allBands.data.slice(0,set)
     console.log(bands)
 
-    //const bandsDom =
     bands.forEach(num => {
         const bandDom = `<div class="card">
         <img src="https://f4.bcbits.com/img/a${num.art_id}_9.jpg" alt="dfjks">
